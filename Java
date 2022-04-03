@@ -169,7 +169,11 @@ $substring(int startIndex, int endIndex):--startIndex: inclusive endIndex: exclu
 
 *char[] ch=s1.toCharArray(); --String to Char array
 
-*Double(to).valueOf(from)   d(any data type).intValue(); 
+*Double(to).valueOf(from)   
+
+
+*Float f= new Float(124f)
+*f.intValue();  --converted to integer type ,to convert any data type from higher to lower data 
 
 *We cannot convert higher data type to lower data type implicity but can explicly
 
