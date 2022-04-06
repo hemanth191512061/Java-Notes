@@ -307,10 +307,10 @@ $An abstract class must be declared with an abstract keyword.
 $The abstract class can also be used to provide some implementation of the interface. In such case, the end user may not be forced to override all the methods of the interface.
 
 *****Interface in Java
-$An interface in Java is a blueprint of a class. It has static constants and abstract methods.
+$An interface in Java is a blueprint of a class. It has static, final, public constants and abstract methods.
 $It cannot be instantiated just like the abstract class.
-$we can have default and static methods in an interface.
-$we can have private methods in an interface.
+$we can have default(to add new functionalities) and static methods in an interface from Java JDK 8, static methods cannot inherited
+$From Java 9 we can have private methods & private static methods in an interface.
 
 Reason for Interface:
 It is used to achieve abstraction.
