@@ -80,7 +80,7 @@ Memory allocation for static variables happens only once when the class is loade
 
 -------------Data Types---------------------
 *Primitive data types: The primitive data types include boolean, character, integer(byte, short, int, long), float(float, double).
-*we can do char increament/decrement char a='a'; a++/a--
+*we can do char increament/decrement // char a='a'; a++/a-- = b
 *float f = 6.9f; double d= 5.90
 *long l = 12345l;
 *int i = 10_00_000;
